@@ -27,15 +27,14 @@ public class DollarRpFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_dollar_rp, container, false);
         dollarRupiah = view.findViewById(R.id.dollar_rupiah);
-        dollarRupiah.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view) {
-                if(mListener != null) {
-                    mListener.onClickDollarRpHandler();
-                }
-            }
-        });
+//        dollarRupiah.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View view) {
+//                if(mListener != null) {
+//                    mListener.onClickDollarRpHandler();
+//                }
+//            }
+//        });
         return view;
 
     }
